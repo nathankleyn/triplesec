@@ -1,0 +1,43 @@
+PATH
+  remote: .
+  specs:
+    triplesec (0.0.1)
+      salsa20 (~> 0.1)
+      scrypt (~> 1.2)
+      sha3 (~> 0.2)
+      twofish (~> 1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    diff-lcs (1.2.5)
+    ffi (1.9.3)
+    ffi-compiler (0.1.3)
+      ffi (>= 1.0.0)
+      rake
+    rake (10.3.2)
+    rspec (3.0.0)
+      rspec-core (~> 3.0.0)
+      rspec-expectations (~> 3.0.0)
+      rspec-mocks (~> 3.0.0)
+    rspec-core (3.0.2)
+      rspec-support (~> 3.0.0)
+    rspec-expectations (3.0.2)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.0.0)
+    rspec-mocks (3.0.2)
+      rspec-support (~> 3.0.0)
+    rspec-support (3.0.2)
+    salsa20 (0.1.0)
+    scrypt (1.2.1)
+      ffi-compiler (>= 0.0.2)
+      rake
+    sha3 (0.2.5)
+    twofish (1.0.5)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  rspec (~> 3.0)
+  triplesec!
